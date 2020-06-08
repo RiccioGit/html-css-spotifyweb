@@ -97,12 +97,13 @@ main {
 .content {
   background-color: green;
   color: white;
-  width: calc(100% - 230px);
+  width: calc(100vw - 230px);
   /* height: 100%; */
   overflow-y: auto;
   overflow-x: hidden;
   float: right;
   margin-top: 70px;
+  margin-left: 230px;
   /* flex-wrap: wrap; */
 }
 
