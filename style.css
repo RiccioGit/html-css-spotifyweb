@@ -63,6 +63,8 @@ main {
   background-color: black;
   height: calc(100% - 100px);
   z-index: 888;
+  padding-left: 1%;
+  padding-top: 1%;
 
 }
 
@@ -75,8 +77,7 @@ main {
 }
 
 .topnav img {
-  max-width: 50px;
-  max-height: 50px;
+  width: 10%;
 }
 
 .bottomnav {
@@ -110,6 +111,7 @@ main {
   justify-content: center;
 }
 
+#playlist
 
 .artisti img {
   border-radius: 50%;
@@ -134,6 +136,7 @@ main {
   width: 180px;
   border: 1px solid #fff;
   border-radius: 50px;
+  margin-right: 1%;
 }
 
 #upgrade .button a {
