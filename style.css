@@ -229,10 +229,11 @@ main {
   padding-right: 5px;
 }
 
-.player-bar button {
-  height: 30px;
+.player-bar button i {
   color:white;
   vertical-align: middle;
+  height: 30px;
+  width: 50px;
 }
 
 .audio button {
