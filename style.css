@@ -40,6 +40,10 @@ a {
   clear: both;
 }
 
+.centratura {
+  padding: 0 10px 0 10px;
+}
+
 /*  *** MAIN *** */
 
 main {
@@ -104,7 +108,9 @@ main {
   float: right;
   margin-top: 70px;
   margin-left: 230px;
-  /* flex-wrap: wrap; */
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: center;
 }
 
 .menu-content {
@@ -162,5 +168,27 @@ main {
   left: 0;
   z-index: 999;
   display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
   color: white;
+}
+
+#player .now-play {
+  width: 200px;
+  height: 50px;
+  padding-right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#player img {
+  width:30px;
+  height:auto;
+}
+
+#player button {
+  border: 0;
+  background-color: transparent;
 }
