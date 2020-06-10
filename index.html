@@ -22,21 +22,21 @@
           <img class="logo" src="img/logo.svg" alt="logo spotify">
           <div class="topnav">
             <img src="img/home.svg" alt="home">
-            <h5>Home</h5>
+            <h5><a href="#">Home</a></h5>
           </div>
           <div class="topnav">
             <img src="img/search.svg" alt="search">
-            <h5>Cerca</h5>
+            <h5><a href="#">Cerca</a></h5>
           </div>
           <div class="topnav">
             <img src="img/libreria.svg" alt="libreria">
-            <h5>La tua libreria</h5>
+            <h5><a href="#">La Tua Libreria</a></h5>
           </div>
 
             <h4>PLAYLIST</h4>
             <div class="topnav">
               <i class="fas fa-plus-square"></i>
-              <h5>Crea Playlist</h5>
+              <h5><a href="#">Crea Playlist</a></h5>
             </div>
 
             <ul>
@@ -52,13 +52,12 @@
               <div class="bottomnav">
               <div class="">
                 <i class="far fa-arrow-alt-circle-down"></i>
-                <h6>Installa app</h6>
+                <h6><a href="#">Installa app</a></h6>
               </div>
-              <div class="">
 
-              <hr style="color: grey; width: 80%;">
 
-              </div>
+              <hr style="color: grey; width: 80%; margin-bottom: 10px;">
+
 
               <div class="bottomnav">
                 <img src="img/profile.svg" alt="logo profilo" style="background-color:grey; border-radius:50%;">
@@ -132,17 +131,19 @@
 
     </div>
 
-      <footer id="player">
+      <footer id="section-player">
 
         <div class="now-play centratura">
 
-          <div class="">
+
             <img src="img/sinister.jpeg" alt="sinister">
-          </div>
-          <div class="">
-            <h3><a href="#">Sinister</a></h3>
-            <h4><a href="#">Brano Nome</a></h4>
-          </div>
+
+            <div class="info-brano">
+              <h3><a href="#">Sinister</a></h3>
+              <h4><a href="#">Brano Nome</a></h4>
+            </div>
+
+
           <div>
             <button type="button" name="heart"><i class="far fa-heart"></i></button>
             <button type="button" name="folder"><i class="far fa-folder"></i></button>
@@ -150,7 +151,7 @@
 
         </div>
 
-        <div class="player-bar">
+        <div class="player-com">
 
           <div class="buttons">
             <button type="button" name="button"><i class="fas fa-random"></i></button>
@@ -158,6 +159,15 @@
             <button type="button" name="button"><i class="far fa-play-circle"></i></button>
             <button type="button" name="button"><i class="fas fa-step-forward"></i></button>
             <button type="button" name="button"><i class="fas fa-redo-alt"></i></button>
+          </div>
+
+          <div class="bar">
+            <span><a href="#">0:25</a></span>
+            <span class="bar-full">
+              <a class="bar-time" href="#"></a>
+              <i class="fa fa-circle"></i>
+            </span>
+            <span><a href="#">4:25</a></span>
           </div>
 
         </div>
@@ -169,6 +179,14 @@
           <button type="button" name="button"><i class="fas fa-tv"></i></button>
 
           <button type="button" name="button"><i class="fas fa-volume-up"></i></button>
+
+
+          <div class="bar">
+           <span class="bar-full">
+             <a class="bar-time" href="#"></a>
+             <i class="fa fa-circle"></i>
+           </span>
+         </div>
 
 
         </div>
